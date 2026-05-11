@@ -23,3 +23,4 @@ $services | Get-Service | Stop-Service
 $services | Get-Service | Start-Service
 
 $services | Get-service | ForEach-Object{Write-Output "Service is : $($_.DisplayName) currently $($_.Status)"}
+
