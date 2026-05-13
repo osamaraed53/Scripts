@@ -1,5 +1,6 @@
 
 # How initiate 
+$list = [System.Collections.ArrayList]::new()
 $list01 = [System.Collections.ArrayList]@() #this casting array to array list
 $list02 = New-Object -TypeName System.Collections.ArrayList
 
