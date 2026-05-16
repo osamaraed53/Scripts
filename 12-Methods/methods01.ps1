@@ -3,7 +3,7 @@
 function Create-Configration {   
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory ,ValueFromPipeline, ValueFromPipelineByPropertyName,ValueFromRemainingArguments)]
+        [Parameter(Mandatory ,ValueFromPipeline)]
         [string]
         $Name,
         [Parameter()]

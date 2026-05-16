@@ -1,0 +1,4 @@
+Name,Version,OperatingSystem
+IISServer2022,1.0.1,Windows
+HyperV2016,1.0.2,Windows
+ELKStack,1.0.5,linux
