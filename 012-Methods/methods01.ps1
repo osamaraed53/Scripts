@@ -1,4 +1,4 @@
-# function Verb-Noun
+2# function Verb-Noun
 
 function Create-Configration {   
     [CmdletBinding()]
@@ -58,4 +58,4 @@ $Names = @("Test01", "Test02", "Test03","Test04")
 $Names | Create-Configration -Path "012-Methods\Configs" -Version "1.0.2" -os Linux -Verbose -Debug
 
 
-# Get-ChildItem -Path "012-Methods\Configs" | Remove-Item
+Get-ChildItem -Path "012-Methods\Configs" | Remove-Item
