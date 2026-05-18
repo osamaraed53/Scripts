@@ -10,7 +10,7 @@
     FunctionsToExport = @('Get-Configration', 'Set-Configration')
     CmdletsToExport   = @()
     VariablesToExport = @()
-    AliasesToExport   = @()
+    AliasesToExport   = @('gcfg', 'scfg')
     PrivateData       = @{
         PSData = @{
             Tags         = @('configuration', 'settings', 'json')
